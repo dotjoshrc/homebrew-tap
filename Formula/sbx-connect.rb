@@ -2,27 +2,27 @@
 class SbxConnect < Formula
   desc "Connect ACP editors to coding agents in Docker Sandboxes"
   homepage "https://github.com/dotjoshrc/sbx-connect"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.2.0/sbx-connect_0.2.0_darwin_arm64.tar.gz"
-      sha256 "935d38ce2ee302370cf4f43bc2f965ffd20498a3d2632cbcca458e2a1ba671e5"
+      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.3.0/sbx-connect_0.3.0_darwin_arm64.tar.gz"
+      sha256 "4e947f73c6706544f77d267519cef5af2fd6868b3840c3a2add065245108392d"
     end
     on_intel do
-      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.2.0/sbx-connect_0.2.0_darwin_amd64.tar.gz"
-      sha256 "bb094e4c810c0a04223eeb1e9aa3747d56712492abf7528563e6cd2f2e522fb7"
+      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.3.0/sbx-connect_0.3.0_darwin_amd64.tar.gz"
+      sha256 "cad69ee3d0f18eafeea2ac96fe461c122ac4963cb0d4158962a85b92b39560b5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.2.0/sbx-connect_0.2.0_linux_arm64.tar.gz"
-      sha256 "a091125a84721ceb954c1a6de7a9d96e850f3840ebe157e6e8281989842698b8"
+      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.3.0/sbx-connect_0.3.0_linux_arm64.tar.gz"
+      sha256 "1d9dc84c01870ac3a02908905cc81363e8614af070cd9210f4989ad8c9e4a340"
     end
     on_intel do
-      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.2.0/sbx-connect_0.2.0_linux_amd64.tar.gz"
-      sha256 "d8dee6084dd8047dabbd978bc0a0b3c643c95e230beb3765cfebb016e0dcb495"
+      url "https://github.com/dotjoshrc/sbx-connect/releases/download/v0.3.0/sbx-connect_0.3.0_linux_amd64.tar.gz"
+      sha256 "d63efedf4d5464fb4913536979644175e3434d4d1da2ee8d766536c468d9115e"
     end
   end
 
