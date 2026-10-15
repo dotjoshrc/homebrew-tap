@@ -7,22 +7,22 @@ class EasyParams < Formula
   on_macos do
     on_arm do
       url "https://github.com/dotjoshrc/easy-params/releases/download/v0.8.0/easy-params_0.8.0_darwin_arm64.tar.gz"
-      sha256 "042b702da44e1961e4ac1b7ce41d6922b66d6bbf872b67671c5ae5394ad9e1c2"
+      sha256 "03f4851b88494b67eeb487eceba86ee06111aff5976227c355c63e105930c3c5"
     end
     on_intel do
       url "https://github.com/dotjoshrc/easy-params/releases/download/v0.8.0/easy-params_0.8.0_darwin_amd64.tar.gz"
-      sha256 "c11c46bd97431d9ed0a614e4a197eaaf35148fadb89d6da93d081e6056372d43"
+      sha256 "64c363b4e2befc3e6d1134cf74ec8d4db3926306520b70c170d0c89010852f9b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dotjoshrc/easy-params/releases/download/v0.8.0/easy-params_0.8.0_linux_arm64.tar.gz"
-      sha256 "291e28f2182cc15e4a1b52fc8bf3898167814e2b887571c7644b9d03ab1304c6"
+      sha256 "108082b6504aa2a2a8d452999c9daa9aaf2c6c9733479f6ba37f7b55b3120778"
     end
     on_intel do
       url "https://github.com/dotjoshrc/easy-params/releases/download/v0.8.0/easy-params_0.8.0_linux_amd64.tar.gz"
-      sha256 "67b00d3b3769144f69beceae647b762b1dc5bde3e507a8867de9816a0835990a"
+      sha256 "db6da72704de0b3c14e89667cd938cd6e57bee04c2d94ec5387b0740d7ebed5b"
     end
   end
 
